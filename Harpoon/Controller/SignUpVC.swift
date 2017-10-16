@@ -72,8 +72,7 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         ]
         KeychainWrapper.standard.set(userUid, forKey: "uid")
         
-        let location = Database.database().reference().child("users").child
-            (userUid)
+        let location = Database.database().reference().child("users").child(userUid)
         
         location.setValue(userData)
         

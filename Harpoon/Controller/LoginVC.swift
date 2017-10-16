@@ -62,7 +62,7 @@ class LoginVC: UIViewController {
     @IBAction func SignIn (_ sender: AnyObject) {
     
         if let email = emailField.text, let password = passwordField.text {
-            Auth.auth()?.signIn(withEmail: email, password: password, completion:
+            Auth.auth().signIn(withEmail: email, password: password, completion:
                 { (user, error) in
                     
                     if error == nil {
