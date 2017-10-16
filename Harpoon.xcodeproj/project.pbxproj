@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A74CC3EA1F943D0D00D5AAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC3E91F943D0D00D5AAB3 /* AppDelegate.swift */; };
+		A74CC3EC1F943D0D00D5AAB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC3EB1F943D0D00D5AAB3 /* ViewController.swift */; };
+		A74CC3EF1F943D0D00D5AAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CC3ED1F943D0D00D5AAB3 /* Main.storyboard */; };
+		A74CC3F11F943D0D00D5AAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74CC3F01F943D0D00D5AAB3 /* Assets.xcassets */; };
+		A74CC3F41F943D0D00D5AAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CC3F21F943D0D00D5AAB3 /* LaunchScreen.storyboard */; };
+		A74CC3FF1F943D0D00D5AAB3 /* HarpoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC3FE1F943D0D00D5AAB3 /* HarpoonTests.swift */; };
+		A74CC40A1F943D0D00D5AAB3 /* HarpoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC4091F943D0D00D5AAB3 /* HarpoonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74CC3FB1F943D0D00D5AAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74CC3DE1F943D0D00D5AAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74CC3E51F943D0D00D5AAB3;
+			remoteInfo = Harpoon;
+		};
+		A74CC4061F943D0D00D5AAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74CC3DE1F943D0D00D5AAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74CC3E51F943D0D00D5AAB3;
+			remoteInfo = Harpoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A74CC3E61F943D0D00D5AAB3 /* Harpoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harpoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74CC3E91F943D0D00D5AAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74CC3EB1F943D0D00D5AAB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A74CC3EE1F943D0D00D5AAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74CC3F01F943D0D00D5AAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74CC3F31F943D0D00D5AAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74CC3F51F943D0D00D5AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74CC3FA1F943D0D00D5AAB3 /* HarpoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarpoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74CC3FE1F943D0D00D5AAB3 /* HarpoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarpoonTests.swift; sourceTree = "<group>"; };
+		A74CC4001F943D0D00D5AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74CC4051F943D0D00D5AAB3 /* HarpoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarpoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74CC4091F943D0D00D5AAB3 /* HarpoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarpoonUITests.swift; sourceTree = "<group>"; };
+		A74CC40B1F943D0D00D5AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74CC3E31F943D0D00D5AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74CC3F71F943D0D00D5AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74CC4021F943D0D00D5AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74CC3DD1F943D0D00D5AAB3 = {
+			isa = PBXGroup;
+			children = (
+				A74CC3E81F943D0D00D5AAB3 /* Harpoon */,
+				A74CC3FD1F943D0D00D5AAB3 /* HarpoonTests */,
+				A74CC4081F943D0D00D5AAB3 /* HarpoonUITests */,
+				A74CC3E71F943D0D00D5AAB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74CC3E71F943D0D00D5AAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74CC3E61F943D0D00D5AAB3 /* Harpoon.app */,
+				A74CC3FA1F943D0D00D5AAB3 /* HarpoonTests.xctest */,
+				A74CC4051F943D0D00D5AAB3 /* HarpoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74CC3E81F943D0D00D5AAB3 /* Harpoon */ = {
+			isa = PBXGroup;
+			children = (
+				A74CC3E91F943D0D00D5AAB3 /* AppDelegate.swift */,
+				A74CC3EB1F943D0D00D5AAB3 /* ViewController.swift */,
+				A74CC3ED1F943D0D00D5AAB3 /* Main.storyboard */,
+				A74CC3F01F943D0D00D5AAB3 /* Assets.xcassets */,
+				A74CC3F21F943D0D00D5AAB3 /* LaunchScreen.storyboard */,
+				A74CC3F51F943D0D00D5AAB3 /* Info.plist */,
+			);
+			path = Harpoon;
+			sourceTree = "<group>";
+		};
+		A74CC3FD1F943D0D00D5AAB3 /* HarpoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74CC3FE1F943D0D00D5AAB3 /* HarpoonTests.swift */,
+				A74CC4001F943D0D00D5AAB3 /* Info.plist */,
+			);
+			path = HarpoonTests;
+			sourceTree = "<group>";
+		};
+		A74CC4081F943D0D00D5AAB3 /* HarpoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A74CC4091F943D0D00D5AAB3 /* HarpoonUITests.swift */,
+				A74CC40B1F943D0D00D5AAB3 /* Info.plist */,
+			);
+			path = HarpoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74CC3E51F943D0D00D5AAB3 /* Harpoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74CC40E1F943D0D00D5AAB3 /* Build configuration list for PBXNativeTarget "Harpoon" */;
+			buildPhases = (
+				A74CC3E21F943D0D00D5AAB3 /* Sources */,
+				A74CC3E31F943D0D00D5AAB3 /* Frameworks */,
+				A74CC3E41F943D0D00D5AAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harpoon;
+			productName = Harpoon;
+			productReference = A74CC3E61F943D0D00D5AAB3 /* Harpoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A74CC3F91F943D0D00D5AAB3 /* HarpoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74CC4111F943D0D00D5AAB3 /* Build configuration list for PBXNativeTarget "HarpoonTests" */;
+			buildPhases = (
+				A74CC3F61F943D0D00D5AAB3 /* Sources */,
+				A74CC3F71F943D0D00D5AAB3 /* Frameworks */,
+				A74CC3F81F943D0D00D5AAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74CC3FC1F943D0D00D5AAB3 /* PBXTargetDependency */,
+			);
+			name = HarpoonTests;
+			productName = HarpoonTests;
+			productReference = A74CC3FA1F943D0D00D5AAB3 /* HarpoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A74CC4041F943D0D00D5AAB3 /* HarpoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74CC4141F943D0D00D5AAB3 /* Build configuration list for PBXNativeTarget "HarpoonUITests" */;
+			buildPhases = (
+				A74CC4011F943D0D00D5AAB3 /* Sources */,
+				A74CC4021F943D0D00D5AAB3 /* Frameworks */,
+				A74CC4031F943D0D00D5AAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74CC4071F943D0D00D5AAB3 /* PBXTargetDependency */,
+			);
+			name = HarpoonUITests;
+			productName = HarpoonUITests;
+			productReference = A74CC4051F943D0D00D5AAB3 /* HarpoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74CC3DE1F943D0D00D5AAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Bartow Weiss";
+				TargetAttributes = {
+					A74CC3E51F943D0D00D5AAB3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A74CC3F91F943D0D00D5AAB3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A74CC3E51F943D0D00D5AAB3;
+					};
+					A74CC4041F943D0D00D5AAB3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A74CC3E51F943D0D00D5AAB3;
+					};
+				};
+			};
+			buildConfigurationList = A74CC3E11F943D0D00D5AAB3 /* Build configuration list for PBXProject "Harpoon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74CC3DD1F943D0D00D5AAB3;
+			productRefGroup = A74CC3E71F943D0D00D5AAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74CC3E51F943D0D00D5AAB3 /* Harpoon */,
+				A74CC3F91F943D0D00D5AAB3 /* HarpoonTests */,
+				A74CC4041F943D0D00D5AAB3 /* HarpoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74CC3E41F943D0D00D5AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74CC3F41F943D0D00D5AAB3 /* LaunchScreen.storyboard in Resources */,
+				A74CC3F11F943D0D00D5AAB3 /* Assets.xcassets in Resources */,
+				A74CC3EF1F943D0D00D5AAB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74CC3F81F943D0D00D5AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74CC4031F943D0D00D5AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74CC3E21F943D0D00D5AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74CC3EC1F943D0D00D5AAB3 /* ViewController.swift in Sources */,
+				A74CC3EA1F943D0D00D5AAB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74CC3F61F943D0D00D5AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74CC3FF1F943D0D00D5AAB3 /* HarpoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74CC4011F943D0D00D5AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74CC40A1F943D0D00D5AAB3 /* HarpoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74CC3FC1F943D0D00D5AAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74CC3E51F943D0D00D5AAB3 /* Harpoon */;
+			targetProxy = A74CC3FB1F943D0D00D5AAB3 /* PBXContainerItemProxy */;
+		};
+		A74CC4071F943D0D00D5AAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74CC3E51F943D0D00D5AAB3 /* Harpoon */;
+			targetProxy = A74CC4061F943D0D00D5AAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A74CC3ED1F943D0D00D5AAB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74CC3EE1F943D0D00D5AAB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74CC3F21F943D0D00D5AAB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74CC3F31F943D0D00D5AAB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74CC40C1F943D0D00D5AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A74CC40D1F943D0D00D5AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74CC40F1F943D0D00D5AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Harpoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.Harpoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A74CC4101F943D0D00D5AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Harpoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.Harpoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A74CC4121F943D0D00D5AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HarpoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.HarpoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harpoon.app/Harpoon";
+			};
+			name = Debug;
+		};
+		A74CC4131F943D0D00D5AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HarpoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.HarpoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harpoon.app/Harpoon";
+			};
+			name = Release;
+		};
+		A74CC4151F943D0D00D5AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HarpoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.HarpoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harpoon;
+			};
+			name = Debug;
+		};
+		A74CC4161F943D0D00D5AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HarpoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.HarpoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harpoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74CC3E11F943D0D00D5AAB3 /* Build configuration list for PBXProject "Harpoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74CC40C1F943D0D00D5AAB3 /* Debug */,
+				A74CC40D1F943D0D00D5AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74CC40E1F943D0D00D5AAB3 /* Build configuration list for PBXNativeTarget "Harpoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74CC40F1F943D0D00D5AAB3 /* Debug */,
+				A74CC4101F943D0D00D5AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74CC4111F943D0D00D5AAB3 /* Build configuration list for PBXNativeTarget "HarpoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74CC4121F943D0D00D5AAB3 /* Debug */,
+				A74CC4131F943D0D00D5AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74CC4141F943D0D00D5AAB3 /* Build configuration list for PBXNativeTarget "HarpoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74CC4151F943D0D00D5AAB3 /* Debug */,
+				A74CC4161F943D0D00D5AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74CC3DE1F943D0D00D5AAB3 /* Project object */;
+}
