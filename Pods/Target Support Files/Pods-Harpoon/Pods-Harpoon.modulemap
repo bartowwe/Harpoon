@@ -1,0 +1,6 @@
+framework module Pods_Harpoon {
+  umbrella header "Pods-Harpoon-umbrella.h"
+
+  export *
+  module * { export * }
+}
