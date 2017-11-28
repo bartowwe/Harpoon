@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		216C08888FD49B0C460B50E9 /* Pods_HarpoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87872DBBDA5DEB8340B2FC5A /* Pods_HarpoonTests.framework */; };
 		6ECE40E9BF0BDE518369DE01 /* Pods_Harpoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC05AC683A1F1CD7CE43A42 /* Pods_Harpoon.framework */; };
+		A72462AA1FA7BBC800465031 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72462A91FA7BBC800465031 /* MessageVC.swift */; };
+		A72462AC1FA80CCF00465031 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72462AB1FA80CCF00465031 /* MessagesCell.swift */; };
+		A72462AE1FA80CE700465031 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72462AD1FA80CE700465031 /* Message.swift */; };
 		A73920F01F94524A0040F42E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73920EF1F94524A0040F42E /* SignUpVC.swift */; };
+		A743A1611F97065D002C336D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A743A15F1F970620002C336D /* GoogleService-Info.plist */; };
 		A74CC3EA1F943D0D00D5AAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC3E91F943D0D00D5AAB3 /* AppDelegate.swift */; };
 		A74CC3EC1F943D0D00D5AAB3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC3EB1F943D0D00D5AAB3 /* LoginVC.swift */; };
 		A74CC3EF1F943D0D00D5AAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CC3ED1F943D0D00D5AAB3 /* Main.storyboard */; };
@@ -17,6 +21,12 @@
 		A74CC3F41F943D0D00D5AAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CC3F21F943D0D00D5AAB3 /* LaunchScreen.storyboard */; };
 		A74CC3FF1F943D0D00D5AAB3 /* HarpoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC3FE1F943D0D00D5AAB3 /* HarpoonTests.swift */; };
 		A74CC40A1F943D0D00D5AAB3 /* HarpoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC4091F943D0D00D5AAB3 /* HarpoonUITests.swift */; };
+		A7B0040D1F9D357D00110907 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0040C1F9D357D00110907 /* ChatVC.swift */; };
+		A7B0040F1F9D363800110907 /* messageDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0040E1F9D363800110907 /* messageDetailCell.swift */; };
+		A7B004111F9D36AD00110907 /* MessageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B004101F9D36AD00110907 /* MessageDetail.swift */; };
+		A7B960E31FB2967B0074101A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B960E21FB2967B0074101A /* SearchVC.swift */; };
+		A7B960E51FB2975E0074101A /* searchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B960E41FB2975E0074101A /* searchCell.swift */; };
+		A7B960E71FB297FF0074101A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B960E61FB297FF0074101A /* Search.swift */; };
 		C1614C3F7AB3D3BC319306FF /* Pods_HarpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872917E4EF2487240CAD3B48 /* Pods_HarpoonUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +54,11 @@
 		872917E4EF2487240CAD3B48 /* Pods_HarpoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarpoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87872DBBDA5DEB8340B2FC5A /* Pods_HarpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EE155A3CB106A86165E137 /* Pods-HarpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarpoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarpoonTests/Pods-HarpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A72462A91FA7BBC800465031 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		A72462AB1FA80CCF00465031 /* MessagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		A72462AD1FA80CE700465031 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		A73920EF1F94524A0040F42E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		A743A15F1F970620002C336D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A74CC3E61F943D0D00D5AAB3 /* Harpoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harpoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74CC3E91F943D0D00D5AAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A74CC3EB1F943D0D00D5AAB3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -58,7 +72,12 @@
 		A74CC4051F943D0D00D5AAB3 /* HarpoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarpoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74CC4091F943D0D00D5AAB3 /* HarpoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarpoonUITests.swift; sourceTree = "<group>"; };
 		A74CC40B1F943D0D00D5AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A74CC4171F943E4700D5AAB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7B0040C1F9D357D00110907 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		A7B0040E1F9D363800110907 /* messageDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageDetailCell.swift; sourceTree = "<group>"; };
+		A7B004101F9D36AD00110907 /* MessageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetail.swift; sourceTree = "<group>"; };
+		A7B960E21FB2967B0074101A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		A7B960E41FB2975E0074101A /* searchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCell.swift; sourceTree = "<group>"; };
+		A7B960E61FB297FF0074101A /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		D225609B10284CB71B83B6AC /* Pods-Harpoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Harpoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Harpoon/Pods-Harpoon.debug.xcconfig"; sourceTree = "<group>"; };
 		DA89BF32BB6E7F15EE8C5BFD /* Pods-HarpoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarpoonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarpoonTests/Pods-HarpoonTests.release.xcconfig"; sourceTree = "<group>"; };
 		FFE81F443F1C7F0A3802C055 /* Pods-Harpoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Harpoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Harpoon/Pods-Harpoon.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +137,9 @@
 		A73920EC1F944AF10040F42E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A7B004101F9D36AD00110907 /* MessageDetail.swift */,
+				A72462AD1FA80CE700465031 /* Message.swift */,
+				A7B960E61FB297FF0074101A /* Search.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -125,6 +147,9 @@
 		A73920ED1F944AF80040F42E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A7B0040E1F9D363800110907 /* messageDetailCell.swift */,
+				A72462AB1FA80CCF00465031 /* MessagesCell.swift */,
+				A7B960E41FB2975E0074101A /* searchCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +159,9 @@
 			children = (
 				A74CC3EB1F943D0D00D5AAB3 /* LoginVC.swift */,
 				A73920EF1F94524A0040F42E /* SignUpVC.swift */,
+				A7B0040C1F9D357D00110907 /* ChatVC.swift */,
+				A72462A91FA7BBC800465031 /* MessageVC.swift */,
+				A7B960E21FB2967B0074101A /* SearchVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +191,7 @@
 		A74CC3E81F943D0D00D5AAB3 /* Harpoon */ = {
 			isa = PBXGroup;
 			children = (
+				A743A15F1F970620002C336D /* GoogleService-Info.plist */,
 				A73920EC1F944AF10040F42E /* Model */,
 				A73920ED1F944AF80040F42E /* View */,
 				A73920EE1F944B0F0040F42E /* Controller */,
@@ -170,7 +199,6 @@
 				A74CC3ED1F943D0D00D5AAB3 /* Main.storyboard */,
 				A74CC3F01F943D0D00D5AAB3 /* Assets.xcassets */,
 				A74CC3F21F943D0D00D5AAB3 /* LaunchScreen.storyboard */,
-				A74CC4171F943E4700D5AAB3 /* GoogleService-Info.plist */,
 				A74CC3F51F943D0D00D5AAB3 /* Info.plist */,
 			);
 			path = Harpoon;
@@ -311,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74CC3F41F943D0D00D5AAB3 /* LaunchScreen.storyboard in Resources */,
+				A743A1611F97065D002C336D /* GoogleService-Info.plist in Resources */,
 				A74CC3F11F943D0D00D5AAB3 /* Assets.xcassets in Resources */,
 				A74CC3EF1F943D0D00D5AAB3 /* Main.storyboard in Resources */,
 			);
@@ -495,8 +524,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B0040D1F9D357D00110907 /* ChatVC.swift in Sources */,
+				A7B0040F1F9D363800110907 /* messageDetailCell.swift in Sources */,
 				A74CC3EC1F943D0D00D5AAB3 /* LoginVC.swift in Sources */,
+				A72462AE1FA80CE700465031 /* Message.swift in Sources */,
 				A73920F01F94524A0040F42E /* SignUpVC.swift in Sources */,
+				A72462AA1FA7BBC800465031 /* MessageVC.swift in Sources */,
+				A7B960E51FB2975E0074101A /* searchCell.swift in Sources */,
+				A7B960E31FB2967B0074101A /* SearchVC.swift in Sources */,
+				A72462AC1FA80CCF00465031 /* MessagesCell.swift in Sources */,
+				A7B960E71FB297FF0074101A /* Search.swift in Sources */,
+				A7B004111F9D36AD00110907 /* MessageDetail.swift in Sources */,
 				A74CC3EA1F943D0D00D5AAB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,11 +702,14 @@
 			baseConfigurationReference = D225609B10284CB71B83B6AC /* Pods-Harpoon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ49Z3RB95;
 				INFOPLIST_FILE = Harpoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.Harpoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -679,11 +720,14 @@
 			baseConfigurationReference = FFE81F443F1C7F0A3802C055 /* Pods-Harpoon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ49Z3RB95;
 				INFOPLIST_FILE = Harpoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RockBottom.Harpoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

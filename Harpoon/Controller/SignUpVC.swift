@@ -1,11 +1,3 @@
-//
-//  SignUpVC.swift
-//  Harpoon
-//
-//  Created by Bartow Weiss on 10/15/17.
-//  Copyright © 2017 Bartow Weiss. All rights reserved.
-//
-
 import UIKit
 import Firebase
 import FirebaseDatabase
@@ -32,10 +24,9 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
     
     var username: String!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         imagePicker = UIImagePickerController()
         
         imagePicker.delegate = self
@@ -44,13 +35,15 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
     }
     
     override func viewDidDisappear(_ animated: Bool) {
+        
         if let _ = KeychainWrapper.standard.string(forKey: "uid") {
+            
             performSegue(withIdentifier: "toMessage", sender: nil)
         }
     }
     
-    func imagePickerController(_ picker: UIImagePickerController,
-       didFinishPickingMediaWithInfo info: [String : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
         if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
             
             userImagePicker.image = image
@@ -58,18 +51,20 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
             imageSelected = true
             
         } else {
-            print("image wasn't selected")
+            
+            print("image wasnt selected")
         }
         
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
-    func setUser(img: String){
+    func setUser(img: String) {
         
         let userData = [
             "username": username!,
             "userImg": img
         ]
+        
         KeychainWrapper.standard.set(userUid, forKey: "uid")
         
         let location = Database.database().reference().child("users").child(userUid)
@@ -80,15 +75,20 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
     }
     
     func uploadImg() {
-        if usernameField.text == nil{
+        
+        if usernameField.text == nil {
+            
             signUpBtn.isEnabled = false
+            
         } else {
+            
             username = usernameField.text
             
             signUpBtn.isEnabled = true
         }
         
         guard let img = userImagePicker.image, imageSelected == true else {
+            
             print("image needs to be selected")
             
             return
@@ -102,12 +102,14 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
             
             metadata.contentType = "image/jpeg"
             
-            Storage.storage().reference().child(imgUid).putData(imgData, metadata:
-                metadata) { (metadata, error) in
+            Storage.storage().reference().child(imgUid).putData(imgData, metadata: metadata) { (metadata, error) in
+                
                 if error != nil {
-                    print("did not upload img")
                     
+                    print("did not upload img")
+                    print(error.debugDescription)
                 } else {
+                    
                     print("uploaded")
                     
                     let downloadURL = metadata?.downloadURL()?.absoluteString
@@ -121,28 +123,34 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         }
     }
     
-    @IBAction func createAccount (_ sender: AnyObject){
-        Auth.auth().createUser(withEmail: emailField, password: passwordField,
-            completion: { (user, error) in
+    @IBAction func createAccount (_ sender: AnyObject) {
+        
+        Auth.auth().createUser(withEmail: emailField, password: passwordField, completion: { (user, error) in
+            
+            if error != nil {
                 
-                if error != nil {
+                print(error?.localizedDescription)
+                print("account could not be created")
+
+            } else {
+                
+                if let user = user {
                     
-                    print("Can't create user")
-                } else {
-                    if let user = user {
-                        self.userUid = user.uid
-                    }
+                    self.userUid = user.uid
                 }
-                
-                self.uploadImg()
+            }
+            
+            self.uploadImg()
         })
     }
     
     @IBAction func selectedImgPicker (_ sender: AnyObject) {
+        
         present(imagePicker, animated: true, completion: nil)
     }
     
-    @IBAction func cancel (_ sender: AnyObject){
+    @IBAction func cancel (_ sender: AnyObject) {
+        
         dismiss(animated: true, completion: nil)
     }
 }
